@@ -17,7 +17,7 @@ res.end("<a href=\"www.google.com\"> Google</a>");
 
 
 app.post('/', function(req, res){
-    console.log(req.body);
+    console.log(req.body.email);
     res.end("success");
 
 });
