@@ -1,7 +1,9 @@
+const path = require("path");
+
 module.exports = {
     entry: './src/scripts.js',
     output: {
-        filename: 'build.js',
+        filename: './js/build.js',
         path: path.resolve(__dirname, 'public'),
     },
     watch: true
